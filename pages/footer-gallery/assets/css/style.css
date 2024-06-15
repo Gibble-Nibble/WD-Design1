@@ -1,3 +1,126 @@
 body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #23272b;
+    color:white;
 }
+.footer {
+    background-color: #888888;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*Footer 2*/
+.footer2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer2 p {
+    margin: 0;
+}
+
+.footer2 .social-icons {
+    margin-top: 10px;
+}
+
+.footer2 .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*Footer 3*/
+.footer3 {
+background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+.footer3 p {
+    margin: 0;
+}
+.footer3 .social-icons {
+    margin-top: 10px;
+}
+.footer3 .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*Footer 4*/
+.footer4 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer4 .left,
+.footer4 .right {
+    flex: 1;
+}
+.footer4 .left {
+    text-align: left;
+    padding-left: 20px;
+}
+.footer4 .right {
+    text-align: right;
+    padding-right: 20px;
+}
+.footer4 p {
+    margin: 0;
+    line-height: 1.5;
+}
+.footer4 a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Footer 5*/
+.footer5 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .footer5 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
