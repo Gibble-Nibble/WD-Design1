@@ -1,5 +1,24 @@
 body {
-    background-color: #23272b;
+    background-color: #a4a4b4;
+    color: rgb(0, 0, 0);
+}
+
+/*Nav Bar*/
+.navbar {
+    background-color: #1a1925;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #454453;
     color: white;
 }
 
@@ -109,10 +128,6 @@ nav a::after {
 }
 nav a:hover::after {
     width: 100%;
-}
-
-body, html {
-    height: 100%;
 }
 
 /* Dropdown Button */

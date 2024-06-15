@@ -7,6 +7,26 @@ body {
     background-color: #23272b;
     color:white;
 }
+
+/*Nav Bar*/
+.navbar {
+    background-color: #1a1925;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #454453;
+    color: white;
+}
+
 .footer {
     background-color: #888888;
     color: white;
