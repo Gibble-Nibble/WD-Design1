@@ -7,11 +7,11 @@
 <a href="https://app.daily.dev/gibblenibble"><img src="https://api.daily.dev/devcards/v2/mKMYGKMhZ0JA9QE1zj7I0.png?type=wide&r=y8t" width="652" alt="Wim's Dev Card"/></a>
 
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">My Website</h3>
+  <h3 align="center">Design 1: Headers & Footers</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Resume
+  My Designs
 </div>
 
 <br />
@@ -51,8 +51,7 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-A resume
-
+Simple designs
 
 
 
@@ -64,16 +63,12 @@ A resume
 ## Rules and Principles
 I forgor
 ```
-WD-ProjectName
+WD-Design1
 └─ assets
 |   └─ css
 |   |   └─ style.css
-|   └─ js
-|   |   └─ script.js
-|   └─ img
-|       └─ fileWith.jpeg/.jpg/.webp/.png
 └─ pages
-|  └─ pageName
+|  └─ header-gallery
 |     └─ index.html
 |     └─ assets
 |        └─ css
