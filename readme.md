@@ -91,5 +91,5 @@ WD-Design1
 | Title | Purpose | Link |
 |-|-|-|
 | W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
-| W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
-| W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
+| W3Schools - Gradient | Gradient Tutorials | https://www.w3schools.com/css/css3_gradients.asp |
+| W3Schools - Video Background | Video Backgorund | https://www.w3schools.com/howto/howto_css_fullscreen_video.asp |
