@@ -68,15 +68,19 @@ WD-Design1
 |   └─ css
 |   |   └─ style.css
 └─ pages
+|  └─ footer-gallery
+|  |  └─ assets
+|  |     └─ css
+|  |        └─ style.css
+|  |  └─ index.html
+|  |
 |  └─ header-gallery
-|     └─ index.html
-|     └─ assets
-|        └─ css
-|        |  └─ style.css
-|        └─ js
-|        |  └─ script.js
-|        └─ img
-|           └─ fileWith.jpeg/.jpg/.webp/.png
+|  |  └─ assets
+|  |     └─ css
+|  |        └─ style.css
+|  |     └─ media
+|  |        └─ AhPuh.mp4
+|  |  └─ index.html
 └─ index.html
 └─ readme.md
 ```
