@@ -61,22 +61,20 @@ Simple designs
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules and Principles
-I forgor
 ```
 WD-Design1
 └─ assets
 |   └─ css
 |   |   └─ style.css
 └─ pages
-|  └─ header-gallery
-|     └─ index.html
+|  └─ footer-gallery
 |     └─ assets
 |        └─ css
-|        |  └─ style.css
-|        └─ js
-|        |  └─ script.js
-|        └─ img
-|           └─ fileWith.jpeg/.jpg/.webp/.png
+|           └─ style.css             
+|  └─ header-gallery
+|     └─ assets
+|        └─ css
+|           └─ style.css             
 └─ index.html
 └─ readme.md
 ```
