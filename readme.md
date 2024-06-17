@@ -61,24 +61,22 @@ Simple designs
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules and Principles
+I forgor
 ```
 WD-Design1
 └─ assets
 |   └─ css
 |   |   └─ style.css
 └─ pages
-|  └─ footer-gallery
-|     └─ assets
-|        └─ css
-|           └─ style.css
-|     └─ index.html         
 |  └─ header-gallery
+|     └─ index.html
 |     └─ assets
 |        └─ css
-|           └─ style.css
-|        └─ media
-|           └─ AhPuh.mp4 
-|     └─ index.html
+|        |  └─ style.css
+|        └─ js
+|        |  └─ script.js
+|        └─ img
+|           └─ fileWith.jpeg/.jpg/.webp/.png
 └─ index.html
 └─ readme.md
 ```
@@ -88,4 +86,6 @@ WD-Design1
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Cheese Title | CheeseCheeseCheeseCheese | Cheese.com |
+| W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
+| W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
+| W3Schools - NavBar | Navbar | https://www.w3schools.com/css/css_navbar.asp |
