@@ -70,11 +70,15 @@ WD-Design1
 |  └─ footer-gallery
 |     └─ assets
 |        └─ css
-|           └─ style.css             
+|           └─ style.css
+|     └─ index.html         
 |  └─ header-gallery
 |     └─ assets
 |        └─ css
-|           └─ style.css             
+|           └─ style.css
+|        └─ media
+|           └─ AhPuh.mp4 
+|     └─ index.html
 └─ index.html
 └─ readme.md
 ```
