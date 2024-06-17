@@ -61,7 +61,6 @@ Simple designs
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules and Principles
-I forgor
 ```
 WD-Design1
 └─ assets
