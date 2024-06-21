@@ -235,3 +235,100 @@ nav a:hover::after {
   font-size: 1.5em;
   margin-top: 10px;
 }
+
+/* Animated Headers */
+
+
+/* Typing */
+.typing-container {
+    background-color: #1a1925;
+    width: 400px;
+    align-items: center;
+}
+
+.typing-header {
+    color:white;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(144, end) infinite;
+    animation-delay: 0s, 5s; /* Delay the start of the animation and repeat every 5 seconds */
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+/* Gradient */
+.gradient-header {
+    padding: 10px;
+    background: linear-gradient(to right, #ff8a00, #e52e71, #1c92d2);
+    background-size: 200% auto;
+    color: #fff;
+    text-align: center;
+    animation: gradient 5s linear infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* Scale Fade */
+.scale-fade-container {
+    overflow: hidden;
+}
+
+.scale-fade-header {
+    text-align: center;
+    animation: scalefade 2s ease-in-out infinite alternate;
+    overflow: hidden; /* Hide any overflow caused by scaling */
+}
+@keyframes scalefade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+/* Blinking */
+
+.blinking-header {
+    text-align: center;
+    animation: blink 1s step-end infinite alternate;
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+/*Slide In*/
+.slidein-header {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slidein 2s forwards infinite;
+    animation-delay: 0s, 5s;
+  }
+  @keyframes slidein {
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
