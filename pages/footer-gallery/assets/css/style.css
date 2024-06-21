@@ -167,7 +167,7 @@ background-color: #333;
   }
 
 /* Fading */
-  #footer7 {
+  .footer7 {
     background-color: #333;
     color: white;
     text-align: center;
@@ -183,10 +183,10 @@ background-color: #333;
     }
   }
 
-  /* Footer 8 */
-  #footer8 {
+/* Up&Down */
+
+.footer8 {
     text-align: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -194,13 +194,56 @@ background-color: #333;
     color: white;
     padding: 10px 0;
     animation: slide-up 1s ease-in-out infinite alternate;
-}
-    @keyframes slide-up {
-        0% {
-            transform: translateY(0);
-        }
-
-        100% {
-            transform: translateY(-20px);
-        }
+  }
+  @keyframes slide-up {
+    0% {
+      transform: translateY(0);
     }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+
+/* Typing */
+.footer9 {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(28, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.footer10 {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    animation: color-change 4s ease-in-out infinite;
+  }
+  @keyframes color-change {
+    0% {
+      background-color: #ff0000;
+    }
+    25% {
+      background-color: #33ff00;
+      color:#1a1925;
+    }
+    50% {
+      background-color: #2f00ff;
+    }
+    75% {
+      background-color: #e5ff00;
+      color:#1a1925;
+    }
+    100% {
+      background-color: #cc00ff;
+    }
+  }
